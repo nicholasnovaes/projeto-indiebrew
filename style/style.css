@@ -1,7 +1,171 @@
 @charset "UTF-8";
 
-mlht, body{
+html, body{
     margin: 0;
     padding: 0;
     font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top left, rgba(255, 0, 0, 0), rgba(255, 0, 191, 0.096));
+}
+
+.contain{
+    padding: 0 1em;
+}
+
+header{
+    padding: 0 1em;
+    margin-top: 1em;   
+}
+
+p{
+    color: #6b6b6b;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.get-started{
+    font-weight: bold;
+}
+
+.number-users{
+    color: #664efc;
+    font-weight: bold;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li{
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.menu-btn{
+    background-color: #664efc;
+    border: none;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.menu-btn a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.main-img{
+    width: 100%;
+}
+
+.sec1{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.sec1 h1{
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+
+.sec-btn{
+    background-color: #664efc;
+    border-radius: 0.3em;
+    border: none;
+    margin: 1em 0 0.5em 0;
+}
+
+.sec-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 1em 1.5em;
+    display: block;
+}
+
+.icons-avatar{
+    margin-top: 1em;
+}
+
+.sec2 h2{
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+.sec2 a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #664efc;
+    font-weight: bold;
+    margin-top: 0.3em;
+    display: block;
+}
+
+.sec3{
+    margin: 4em 0 2em;
+
+}
+
+.sec3-img{
+    margin-bottom: 2em;
+}
+
+.sec3 h2{
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+.sec3 a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #664efc;
+    font-weight: bold;
+    margin-top: 0.3em;
+    display: block;
+}
+
+footer{
+    background-color: #e2e2e27e;
+    padding:1em;
+}
+
+footer ul{
+    list-style-type: none;
+
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+footer ul :nth-last-child(4){
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+footer ul li{
+    padding: 0.3em;
+}
+
+.footer-nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }

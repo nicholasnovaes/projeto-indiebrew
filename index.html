@@ -13,40 +13,43 @@
 </head>
 <body>
     <header>
-        <img src="icons/Logo.svg" alt="Logo">
-        <nav>
-            <ul>
+        <div class="header-nav">
+            <img src="icons/Logo.svg" alt="Logo">
+            <img src="icons/Hamburger Menu.svg" alt="Hamburger Menu" class="menu-hamb" onclick="clickMenu()">
+        </div>
+        <nav id="menu">
+            <ul class="menu-list">
                 <li>Pricing</li>
                 <li>Support</li>
-                <li><button><a href="#">Get Started - i'ts free</a></button></li>
+                <button class="menu-btn"><a href="#"><span class="get-started">Get Started</span> - i'ts free</a></button>
             </ul>
         </nav>
     </header>
     
-    <main>
-        <section>
-            <img src="images/Feed Mockup.png" alt="Feed Mockup">
-            <div>
+    <main class="contain">
+        <section class="sec1">
+            <img src="images/Feed Mockup.png" alt="Feed Mockup" class="main-img">
+            <div class="sec1-text">
                 <h1>You weekly personal feed digest.</h1>
                 <p>With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, IndieHackers, and much more.</p>
-                <button>Get Started - i'ts free</button>
-                <img src="icons/User Avatars.svg" alt="Avatars">
-                <p>Join <span>32,642 IndieBrewmers in curating their personal digest.</span></p>
+                <button class="sec-btn"><a href="#"><span class="get-started">Get Started</span> - i'ts free</a></button> <br>
+                <img src="icons/User Avatars.svg" alt="Avatars" class="icons-avatar">
+                <p>Join <span class="number-users">32,642</span> IndieBrewmers in curating their personal digest.</p>
             </div>
         </section>
 
         
-        <seciton>
-                <img src="images/Social Media Icons.png" alt="Social Media Icons">
+        <seciton class="sec2">
+                <img src="images/Social Media Icons.png" alt="Social Media Icons" class="main-img ">
                 <div>
                     <h2>Curate your feed from dozens of resources.</h2>
-                    <p>We cover all major platforms where one could want to curate their feed from. Reddit, ProduceHunt, IndieHackers, and so much more</p>
+                    <p>We cover all major platforms where one could want to curate their feed from. Reddit, ProduceHunt, IndieHackers, and so much more.</p>
                     <a href="#">See full list of resources</a>
                 </div>
         </seciton>
         
-        <section>
-            <img src="images/Phone Mockup.png" alt="Phone Mockup">
+        <section class="sec3">
+            <img src="images/Phone Mockup.png" alt="Phone Mockup" class="main-img sec3-img">
             <div>
                 <h2>Acess your feed from the comfort of your phone.</h2>
                 <p>With native apps for both iOS and Android, acessing your curated content has never been easier.</p>
@@ -62,11 +65,12 @@
             With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, IndieHackers, and much more. </p>
         </div>
 
-        <div>
+        <div class="footer-nav">
             <ul>
                 <li>Sitemap</li>
                 <li>Homepage</li>
                 <li>Pricing</li>
+                <li>Get Started</li>
             </ul>
 
             <ul>
@@ -92,5 +96,17 @@
         </div>
 
     </footer>
+
+    <script>
+
+        function clickMenu(){
+            if(menu.style.display == 'none'){
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+
+    </script>
 </body>
 </html>
