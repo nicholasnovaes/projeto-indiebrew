@@ -5,3 +5,102 @@ html, body{
     padding: 0;
     font-family: 'DM Sans', sans-serif;
 }
+
+body{
+    background-image: linear-gradient(to top left, rgba(255, 0, 0, 0), rgba(255, 0, 191, 0.096));;
+}
+
+header{
+    padding: 0 1em;
+    margin-top: 1em;   
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    display: none;
+}
+
+.header-btn{
+    font-size: 1.5em;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.contain{
+    padding: 0 1em 2em;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 1.1em;
+    margin: 1em 0;
+    text-align: left;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+form{
+    width: 100%;
+    background-color: white;
+}
+
+fieldset{
+    border: none;
+    padding: 1.5em;
+}
+
+fieldset p{
+    font-weight: 500;
+}
+
+fieldset label{
+    font-size: 1.5em;
+    display: block;
+}
+
+fieldset label:last-child{
+    font-size: 1em;
+    display: inline;
+}
+
+fieldset input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    padding: 1em;
+    margin: 0.5em 0;
+    color: #ccc;
+}
+
+fieldset input:focus{
+    outline: 1px solid #664efc;
+}
+
+#checkbox{
+    display: inline;
+    width: 5%;
+    margin:0 0.2em 0 0;
+}
+
+fieldset a{
+    color: blue;
+    font-weight: 700;
+}
+
+.submit{
+    background-color: #664efc;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
