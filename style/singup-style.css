@@ -95,7 +95,7 @@ fieldset input:focus{
 
 #checkbox{
     display: inline;
-    width: 3%;
+    width: 1%;
     margin:0 0.2em 0 0;
 }
 
@@ -107,7 +107,7 @@ fieldset a{
 .submit{
     background-color: #664efc;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     font-weight: bold;
     color: white;
     font-size: 1.5em;
@@ -149,6 +149,10 @@ fieldset a{
         font-size: 1.8em;
         margin-top: 0;
     }
+
+    #checkbox{
+        width: 2%;
+    }
     
 }
 
@@ -177,5 +181,7 @@ fieldset a{
         width: 50%;
     }
 
-
+    #checkbox{
+        width: 3%;
+    }
 }
