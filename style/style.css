@@ -177,3 +177,87 @@ footer ul li{
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (min-width:768px){
+
+    header{
+        padding: 0 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contain{
+        padding: 0 2em;
+    }
+    
+    .menu-hamb{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    .menu-list{
+        display: flex;
+    }
+
+    .menu-list li{
+        width: 4em;
+        padding: 1em;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .sec2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .sec2-img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .sec2-text{
+        width: 60%;
+    }
+
+    .sec2 h2{
+        margin-top: 0;
+    }
+
+    .sec3{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sec3-img{
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .sec3-text{
+        width: 60%;
+    }
+
+    .sec3 h2{
+        margin-top: 0;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-text{
+        width: 55%;
+    }
+
+    .footer-nav{
+        width: 40%;
+    }
+}
