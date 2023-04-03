@@ -148,9 +148,12 @@ footer{
     padding:1em;
 }
 
+footer p{
+    font-size: 1.2em;
+}
+
 footer ul{
     list-style-type: none;
-
     margin: 1em 0 0 0;
     padding: 0;
 }
@@ -162,10 +165,15 @@ footer ul :nth-last-child(4){
 
 footer ul li{
     padding: 0.3em;
+    font-size: 1.3em;
 }
 
-.footer-nav{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+.footer-div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div2{
+    display: flex;
+    justify-content: space-between;
 }
