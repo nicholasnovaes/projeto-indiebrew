@@ -22,7 +22,7 @@ header{
 p{
     color: #6b6b6b;
     line-height: 1.5em;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -55,21 +55,27 @@ p{
     text-align: center;
     padding: 0.5em;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.menu-list li:hover{
+    background-color: rgba(255, 0, 191, 0.096);
 }
 
 .menu-btn{
     background-color: #664efc;
+    text-align: center;
     border: none;
     width: 100%;
-    padding: 0.5em;
+    padding: 0;
 }
 
 .menu-btn a{
     text-decoration: none;
-    display: block;
     color: white;
     font-size: 1.2em;
     width: 100%;
+    padding: 1em 1em;
 }
 
 .main-img{
@@ -148,9 +154,7 @@ footer{
     padding:1em;
 }
 
-footer p{
-    font-size: 1.2em;
-}
+
 
 footer ul{
     list-style-type: none;
@@ -190,6 +194,10 @@ footer ul li{
         padding: 0 2em;
     }
     
+    p{
+        font-size: 1.1em;
+    }
+
     .menu-hamb{
         display: none;
     }
@@ -259,5 +267,70 @@ footer ul li{
 
     .footer-nav{
         width: 40%;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header{
+        padding: 0 7em;
+    }
+
+    .contain{
+        padding:  0 7em;
+    }
+
+
+    .sec1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 3em;
+    }
+
+    .sec1-text{
+        width: 55%;
+    }
+
+    .sec1-img{
+        width: 40%;
+    }
+
+    .sec2-text{
+        width: 60%;
+    }
+
+    .sec2-img{
+        width: 30%;
+        height: 30%;
+    }
+
+    .sec3{
+        align-items: center;
+    }
+
+    .sec3-text{
+        width: 50%;
+    }
+
+    footer{
+        padding: 2em 7em 2em;
+    }
+
+    .footer-text{
+        width: 39%;
+    }
+
+    .footer-nav{
+        width: 50%;
+        display: flex;
+
+    }
+
+    .footer-nav ul{
+        margin-left: 1.2em;
+    }
+
+    .footer-nav ul li{
+        font-size: 1.2em;
     }
 }
