@@ -146,7 +146,7 @@ fieldset a{
     }
 
     h2{
-        font-size: 2em;
+        font-size: 1.8em;
         margin-top: 0;
     }
     
@@ -167,6 +167,7 @@ fieldset a{
         display: flex;
         justify-content: space-between;
     }
+
 
     .div-text{
         width: 40%;
