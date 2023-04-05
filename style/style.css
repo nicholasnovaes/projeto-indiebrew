@@ -170,7 +170,7 @@ footer ul :nth-last-child(4){
 
 footer ul li{
     padding: 0.3em;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .footer-div1{
@@ -332,6 +332,6 @@ footer ul li{
     }
 
     .footer-nav ul li{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
